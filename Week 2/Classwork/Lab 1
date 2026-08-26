@@ -42,6 +42,6 @@ print(first_item, total_cost, Class, "Item age is:", item_Age)
 #Lab 1-7
 
 x = float(input("State the Length"))
-y = float(input("State the Height"))
+y = float(input("State the Width"))
 area = x*y
 print("The area of the rectangle is", area)
