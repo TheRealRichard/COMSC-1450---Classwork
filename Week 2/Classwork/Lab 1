@@ -49,9 +49,9 @@ print("The area of the rectangle is", area)
 
 #Lab 1-8
 
-name = input("Enter your name")
-budget = float(input("Enter the monthly budget"))
-expense = float(input("Enter the daily food expense"))
+name = input("Enter your name:")
+budget = float(input("Enter the monthly budget ($):"))
+expense = float(input("Enter the daily food expense ($):"))
 expense_month = expense * 30
 budget_remains = budget - expense_month
 print(name, "|", "Food: $", expense_month, "|", "Remaining: $", budget_remains)
