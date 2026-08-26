@@ -14,3 +14,6 @@ print(type(x))
 print(type(y))
 print(type(z))
 
+#Lab 1-4
+
+print("A \nB \nC \nD \nE \nF")
