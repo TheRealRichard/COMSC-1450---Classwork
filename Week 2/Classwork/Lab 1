@@ -17,3 +17,15 @@ print(type(z))
 #Lab 1-4
 
 print("A \nB \nC \nD \nE \nF")
+
+#Lab 1-5
+
+file_path = "C:\\Users\\rick\\Documents"
+print(file_path) 
+file_display = ''' ---SYSTEM MENU---
+   1. Open File
+   2. Save File'''
+print(file_display)
+quote = 'The professor said, \'Make sure you escape matching
+quotes!\''
+print(quote)
