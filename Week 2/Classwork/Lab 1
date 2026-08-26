@@ -29,3 +29,12 @@ print(file_display)
 quote = 'The professor said, \'Make sure you escape matching
 quotes!\''
 print(quote)
+
+#Lab 1-6
+
+first_item = "Keyboard" 
+total_cost = 45.00 
+Class = "Electronics"
+item_Age = 2
+#Printing details
+print(first_item, total_cost, Class, "Item age is:", item_Age) 
