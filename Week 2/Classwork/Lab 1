@@ -60,3 +60,8 @@ expense_month = expense * 30
 budget_remains = budget - expense_month
 print(" ---BUDGET SUMMARY--- ")
 print(name, "| Food: $", expense_month, "| Remaining: $", budget_remains)
+
+#Lab 1-9
+Radius = float(input("What is the Radius?"))
+Area = Radius * Radius * 3.14159
+print("The Area is", Area)
