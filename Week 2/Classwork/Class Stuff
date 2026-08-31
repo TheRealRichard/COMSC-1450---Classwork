@@ -1,0 +1,34 @@
+print("Welcome to the Python Class") #Introduction Paragraph
+print(type[45])
+print(type[45, 98])
+print(type["DA"])
+
+print(3 + 8)
+print("Hello " + "Python" )
+print("Hello " + "2026")
+
+x = 5
+y = int(float(x))
+print(y)
+print(type[x])
+z = 2
+x + y + z == 5
+print(x)
+
+name = "Sara"
+print(name)
+
+print("Welcome to the Python \n Class of \n 2026")
+print("Darth Vader said \"Join the Dark Side, We have Coooookies\"")
+
+NAME = (input("Please enter your name"))
+print("Awesome", NAME, ", Welcome to the class")
+
+
+
+x = input("Enter your name ")
+score = float(input("Enter your score "))
+print(type(x))
+print(type(score))
+print("Hello", x, "your score is", score)
+print(float(score) + 5)
