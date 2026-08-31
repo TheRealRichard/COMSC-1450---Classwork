@@ -65,3 +65,8 @@ print(name, "| Food: $", expense_month, "| Remaining: $", budget_remains)
 Radius = float(input("What is the Radius?"))
 Area = Radius * Radius * 3.14159
 print("The Area is", Area)
+
+#Lab 1-10
+Celsius = float(input("What is the temperature in Celsius?"))
+Farenheit = (Celsius * (9/5)) + 32
+print("The Temperature in Farenheit is", Farenheit)
