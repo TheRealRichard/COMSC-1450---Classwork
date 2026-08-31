@@ -70,3 +70,10 @@ print("The Area is", Area)
 Celsius = float(input("What is the temperature in Celsius?"))
 Farenheit = (Celsius * (9/5)) + 32
 print("The Temperature in Farenheit is", Farenheit)
+
+#Lab 1-11
+Number1 = float(input("What is the first number?"))
+Number2 = float(input("What is the second number?"))
+Number3 = float(input("What is the third number?"))
+Average = (Number1 + Number2 + Number3) / 3
+print("The Average is", Average)
