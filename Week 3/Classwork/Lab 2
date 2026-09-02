@@ -13,3 +13,19 @@ if number % 2 == 0:
     print("This Number is Even")
 else:
     print("This Number is Odd")
+
+# Lab 2-3
+
+age = float(input("Type in an Age"))
+if age >= 19:
+    print("Adult")
+else:
+    print("Teenager")
+
+# Lab 2-4
+
+temp = float(input("Type in the Temperature"))
+if temp >= 80:
+    print("Hot")
+else:
+    print("Cold")
