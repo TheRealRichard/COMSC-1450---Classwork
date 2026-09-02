@@ -73,3 +73,16 @@ if password == "1234":
 else:
     print("ACCESS DENIED")
 
+# Lab 2-9
+
+temp = float(input("What is the temperature?"))
+
+if temp < 60:
+    print("Cold")
+elif (temp >= 60) and (temp < 80):
+    print("Warm")
+elif (temp >= 80) and (temp < 100):
+    print("Hot")
+elif temp >= 100:
+    print("Very Hot")
+
