@@ -63,3 +63,13 @@ if number1 == number2:
     print("The Numbers are the same")
 else:
     print("The Numbers are different")
+
+# Lab 2-8
+
+password = input("What is the Number Password?")
+
+if password == "1234":
+    print("ACCESS GRANTED")
+else:
+    print("ACCESS DENIED")
+
