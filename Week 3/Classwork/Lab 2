@@ -1,0 +1,15 @@
+# Lab 2-1
+
+number = float(input("What is the number?"))
+if number >= 0:
+    print("This Number is Positive")
+else:
+    print("This Number is Negative")
+
+# Lab 2-2
+
+number = float(input("What is the number?"))
+if number % 2 == 0:
+    print("This Number is Even")
+else:
+    print("This Number is Odd")
