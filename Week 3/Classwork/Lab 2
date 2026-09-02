@@ -41,3 +41,15 @@ if number2 > number1:
     print("The Second Number is Bigger")
 if number1 == number2:
     print("The Numbers are Equal")
+
+# Lab 2-6
+
+number = float(input("What is the number?"))
+
+if number >= 0:
+    if number <= 100:
+        print("The Number is within Range")
+    else:
+        print("DOOM")
+else:
+    print("DOOM")
