@@ -29,3 +29,15 @@ if temp >= 80:
     print("Hot")
 else:
     print("Cold")
+
+# Lab 2-5
+
+number1 = float(input("What is the first number?"))
+number2 = float(input("What is the second number?"))
+
+if number1 > number2:
+    print("The First Number is Bigger")
+if number2 > number1:
+    print("The Second Number is Bigger")
+if number1 == number2:
+    print("The Numbers are Equal")
