@@ -100,3 +100,18 @@ elif (score >= 80) and (score <= 89):
     print("B")
 elif score >= 90:
     print("A")
+
+# Lab 2-11
+
+number1 = float(input("What is the First Number?"))
+number2 = float(input("What is the Second Number?"))
+number3 = float(input("What is the Third Number?"))
+
+if (number1 > number2) and (number1 > number3):
+    print("The First Number is the biggest")
+elif (number2 > number1) and (number2 > number3):
+    print("The Second Number is the biggest")
+elif (number3 > number1) and (number3 > number2):
+    print("The Third Number is the biggest")
+else:
+    print("There seems to be a tie...")
