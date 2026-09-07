@@ -115,3 +115,15 @@ elif (number3 > number1) and (number3 > number2):
     print("The Third Number is the biggest")
 else:
     print("There seems to be a tie...")
+
+# Lab 2-12
+
+ticket = input("There are four ticket options. Do you want: \n1. Child Ticket (Under 13): $5 \n2. Teenager Ticket (13 to 17): $8 \n3. Adult Ticket (18 to 64): $12 \n4. Senior Ticket (65 and over): $7")
+if ticket == "1":
+    print("That will be $5")
+elif ticket == "2":
+    print("That will be $8")
+elif ticket == "3":
+    print("That will be $12")
+elif ticket == "4":
+    print("That will $7")
