@@ -127,3 +127,22 @@ elif ticket == "3":
     print("That will be $12")
 elif ticket == "4":
     print("That will $7")
+
+# Lab 2-13
+
+number1 = float(input("What is the first number?"))
+number2 = float(input("What is the second number?"))
+sign = input("Will the equation be: \n1. Addition \n2. Subtraction \n3. Multiplication \n4. Division")
+
+if sign == "1":
+    answer = number1 + number2
+    print("The result of", number1, "plus", number2, "equals", answer)
+elif sign == "2":
+    answer = number1 - number2
+    print("The result of", number1, "minus", number2, "equals", answer)
+elif sign == "3":
+    answer = number1 * number2
+    print("The result of", number1, "times", number2, "equals", answer)
+elif sign == "4":
+    answer = number1 / number2
+    print("The result of", number1, "divided", number2, "equals", answer)
