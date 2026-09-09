@@ -37,4 +37,12 @@ print("Password Accepted")
 
 # Lab 3-6
 
-
+X = int(input("What is the Number?"))
+while X != 42:
+    if X > 42:
+        print("This number is too High")
+        X = int(input("What is the Number?"))
+    elif X < 42:
+        print("This number is too Low")
+        X = int(input("What is the Number?"))
+print("Congratulations")
