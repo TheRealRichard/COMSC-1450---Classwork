@@ -22,4 +22,9 @@ while K >= 0:
 
 # Lab 3-4
 
+E = 2
+while E <= 30:
+    print(E, E * E)
+    E = E + 2
 
+# Lab 3-5
