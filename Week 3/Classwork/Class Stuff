@@ -1,0 +1,26 @@
+Second = 7200
+Hour = Second // 3600
+print(Hour)
+print(Second)
+Minute = Second//60
+print(Minute)
+
+x = 5
+y = 7
+temp = x
+x = y
+y = temp
+
+score = float(input("Score?"))
+if score > 20:
+    print("Pass")
+    print("Congratulations")
+print("The End")
+
+x = 70
+if(x >= 60):
+    print("Passed")
+    print("OK")
+else:
+    print("Failed")
+print("2026")
