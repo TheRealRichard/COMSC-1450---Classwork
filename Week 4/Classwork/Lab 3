@@ -28,3 +28,13 @@ while E <= 30:
     E = E + 2
 
 # Lab 3-5
+
+Guess = input("What is the Password?")
+while Guess != "CAKE":
+    print("Wrong Password")
+    Guess = input("What is the Password?")
+print("Password Accepted")
+
+# Lab 3-6
+
+
