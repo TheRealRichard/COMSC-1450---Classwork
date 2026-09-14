@@ -46,3 +46,13 @@ while X != 42:
         print("This number is too Low")
         X = int(input("What is the Number?"))
 print("Congratulations")
+
+# Lab 3-7
+
+word = input("Enter a word")
+
+while word != "stop":
+    print("The Word of the Day is", word)
+    word = input("Enter a word")
+
+print("Program Ended")
