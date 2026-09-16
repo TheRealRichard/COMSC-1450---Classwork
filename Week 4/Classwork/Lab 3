@@ -65,3 +65,12 @@ while n > 0:
     sum = sum + n
     n = n - 1
 print("The sum of all numbers from 1 to n is", sum)
+
+# Lab 3-9
+
+x = int(input("What numbers would you like to add? (Type 0 to end)"))
+sum = 0
+while x != 0:
+    sum = sum + x
+    x = int(input("What is the next number?"))
+print("The total sum is", sum)
