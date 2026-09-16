@@ -56,3 +56,12 @@ while word != "stop":
     word = input("Enter a word")
 
 print("Program Ended")
+
+# Lab 3-8
+
+n = int(input("What number is n?"))
+sum = 0
+while n > 0:
+    sum = sum + n
+    n = n - 1
+print("The sum of all numbers from 1 to n is", sum)
