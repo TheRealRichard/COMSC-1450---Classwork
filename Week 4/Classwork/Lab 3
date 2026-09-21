@@ -74,3 +74,19 @@ while x != 0:
     sum = sum + x
     x = int(input("What is the next number?"))
 print("The total sum is", sum)
+
+# Lab 3-10
+
+num = int(input("Enter a number?"))
+plus = 0
+minus = 0
+
+while num != 0:
+    if num > 0:
+        plus = plus + 1
+        num = int(input("Enter another number"))
+    elif num < 0:
+        minus = minus + 1
+        num = int(input("Enter another number"))
+print("There are", plus, "Positive Numbers")
+print("There are", minus, "Negative Numbers")
