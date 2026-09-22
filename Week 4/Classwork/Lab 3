@@ -90,3 +90,14 @@ while num != 0:
         num = int(input("Enter another number"))
 print("There are", plus, "Positive Numbers")
 print("There are", minus, "Negative Numbers")
+
+# Lab 3-11
+
+x = int(input("Input the first grade"))
+count = 1
+
+while count < 6:
+    x = x + int(input("Input the next grade"))
+    count += 1
+average = x / 6
+print("The Average grade is", average)
