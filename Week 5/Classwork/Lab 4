@@ -8,3 +8,15 @@ y2 = 8
 
 dis = math.sqrt((math.pow((x2-x1),2))+(math.pow((y2-y1),2)))
 print("The distance is", dis)
+
+# Lab 4-2
+
+import math
+deg = int(input("Print your number in Degrees"))
+
+rad = (deg*3.14159) / 180
+print(rad, "Radians")
+cosine = math.cos(rad)
+sine = math.sin(rad)
+print("The Cosine is", cosine)
+print("The Sine is", sine)
