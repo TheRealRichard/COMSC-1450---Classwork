@@ -28,3 +28,12 @@ import random
 print(random.random())
 print(random.choice('ABCDEF'))
 print(random.randint(1,50))
+
+# Lab 4-4
+
+def welcome():
+    print("**************************** \nWelcome to Python Programming! \n****************************")
+
+welcome()
+welcome()
+welcome()
