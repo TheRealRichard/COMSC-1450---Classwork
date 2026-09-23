@@ -20,3 +20,11 @@ cosine = math.cos(rad)
 sine = math.sin(rad)
 print("The Cosine is", cosine)
 print("The Sine is", sine)
+
+# Lab 4-3
+
+import random
+
+print(random.random())
+print(random.choice('ABCDEF'))
+print(random.randint(1,50))
