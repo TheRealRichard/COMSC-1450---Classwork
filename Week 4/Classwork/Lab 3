@@ -101,3 +101,14 @@ while count < 6:
     count += 1
 average = x / 6
 print("The Average grade is", average)
+
+# Lab 3-12
+
+x = int(input("What is the number (enter 0 to end)?"))
+big = 0
+
+while x != 0:
+    if (x > big) and (x % 2 == 0):
+        big = x
+    x = int(input("Input another number"))
+print("The Biggest Even Number is", big)
