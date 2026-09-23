@@ -45,3 +45,23 @@ def greet():
     print("Hello", x, ", welcome back!")
 
 greet()
+
+# Lab 4-6
+
+def numtest():
+    x = int(input("What is the number?"))
+    if (x % 2) == 0:
+        print("This number is even")
+    elif (x % 2) != 0:
+        print("This number is odd")
+
+numtest()
+
+# Lab 4-7
+
+def exchange():
+    dollar_amount = int(input("What is the amount in Dollars($)?"))
+    euro_amount = dollar_amount * 0.92
+    return euro_amount
+
+print("The result is", exchange(), "Euros")
