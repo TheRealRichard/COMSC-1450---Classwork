@@ -37,3 +37,11 @@ def welcome():
 welcome()
 welcome()
 welcome()
+
+# Lab 4-5
+
+def greet():
+    x = input("What is your name?")
+    print("Hello", x, ", welcome back!")
+
+greet()
