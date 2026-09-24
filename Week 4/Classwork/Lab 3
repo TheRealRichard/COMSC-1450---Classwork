@@ -112,3 +112,16 @@ while x != 0:
         big = x
     x = int(input("Input another number"))
 print("The Biggest Even Number is", big)
+
+# Lab 3-13
+
+x = int(input("Enter a Positive Number"))
+count = 1
+final = 1
+if x >= 0:
+    while count <= x:
+        final = final * count
+        count = count + 1
+    print("The Factorial is", final)
+elif x < 0 :
+    print("Expected a Positive Number")
