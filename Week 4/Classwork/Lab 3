@@ -155,6 +155,10 @@ print("The total sum is", sum)
 word = input("Enter a word")
 count = 0
 for letter in word:
+    if letter == "a":
+        count = count + 1
+print("The letter 'a' appears", count, "times")
+
 
 # Lab 3-19
 
@@ -163,7 +167,9 @@ for x in range(4):
         print(x, end="")
     print()
 
+# Lab 3-20
 
-    if letter == "a":
-        count = count + 1
-print("The letter 'a' appears", count, "times")
+for x in range(4):
+    for y in range(4):
+        print("*", end="")
+    print()
