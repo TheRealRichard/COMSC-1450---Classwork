@@ -125,3 +125,10 @@ if x >= 0:
     print("The Factorial is", final)
 elif x < 0 :
     print("Expected a Positive Number")
+
+# Lab 3-14
+
+for x in range(1,11):
+    print(x)
+
+# Lab 3-15
