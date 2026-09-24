@@ -180,3 +180,10 @@ for x in range(7):
     for y in range(x):
         print(y, end="")
     print()
+
+# Lab 3-22
+
+for x in range(1,6):
+    for y in range(x):
+        print("*", end="")
+    print()
