@@ -173,3 +173,10 @@ for x in range(4):
     for y in range(4):
         print("*", end="")
     print()
+
+# Lab 3-21
+
+for x in range(7):
+    for y in range(x):
+        print(y, end="")
+    print()
