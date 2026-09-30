@@ -16,7 +16,7 @@ countdown(10)
 
 def print_range(start,stop):
     if start == stop:
-        print("25")
+        print(start)
         print("Done")
     else:
         print(start)
