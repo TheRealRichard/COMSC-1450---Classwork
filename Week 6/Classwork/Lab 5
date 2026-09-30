@@ -11,3 +11,15 @@ def countdown(n):
     
 
 countdown(10) 
+
+## Lab 5-2
+
+def print_range(start,stop):
+    if start == stop:
+        print("25")
+        print("Done")
+    else:
+        print(start)
+        print_range(start + 1, stop)
+
+print_range(1,25)
