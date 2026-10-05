@@ -62,3 +62,8 @@ print(oddtest(9))
 
 add = lambda x,y: x+y
 print(add(9,10))
+
+## Lab 5-9
+
+area = lambda x: x*x*3.14159
+print(area(5))
