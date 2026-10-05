@@ -47,3 +47,9 @@ def power_of_two(n):
         return 2 * power_of_two(n-1)
 
 print(power_of_two(6))
+
+## Lab 5-6
+
+compare = lambda x,y: x if x>y else y
+print(compare(1,5))
+
