@@ -53,3 +53,7 @@ print(power_of_two(6))
 compare = lambda x,y: x if x>y else y
 print(compare(1,5))
 
+## Lab 5-7
+
+oddtest = lambda x: "odd" if x%2 != 0 else "even"
+print(oddtest(9))
