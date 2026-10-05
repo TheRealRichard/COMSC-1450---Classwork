@@ -57,3 +57,8 @@ print(compare(1,5))
 
 oddtest = lambda x: "odd" if x%2 != 0 else "even"
 print(oddtest(9))
+
+## Lab 5-8
+
+add = lambda x,y: x+y
+print(add(9,10))
