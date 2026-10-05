@@ -1,0 +1,16 @@
+## Lab 6-1
+
+def validate_access_code(raw_code):
+    space_remover = raw_code.strip().lower()
+    if space_remover.startswith("admin") and space_remover.endswith("2026"):
+        return True
+    else:
+        return False
+
+
+
+x = validate_access_code(input("What is the code?"))
+if x == True:
+    print("Success")
+else:
+    print("Access Denied")
