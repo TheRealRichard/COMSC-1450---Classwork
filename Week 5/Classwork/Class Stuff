@@ -1,0 +1,40 @@
+import random
+
+print(random.random())
+print(random.randint(1,10))
+print(random.randrange(1,5,2))
+
+
+def welcome():
+    print("Welcome to UST")
+    print("2026")
+welcome()
+welcome()
+
+def total(x,y):
+    print(x + y)
+total(2,3)
+total(6,7)
+
+w = 10
+d = 21
+cost = (w*0.5) + (d*0.1)
+print(cost, "$")
+
+def cost_ship(w,d):
+    w = int(input("Size"))
+    d = int(input("Distance"))
+
+cost_ship
+
+sum = 0
+for i in range(10):
+    sum = sum + i
+
+def c_d (n):
+    if n == 0:
+        return
+    print(n)
+    c_d(n-1)
+
+c_d(5)
