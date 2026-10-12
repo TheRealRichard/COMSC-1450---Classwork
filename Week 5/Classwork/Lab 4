@@ -65,3 +65,12 @@ def exchange():
     return euro_amount
 
 print("The result is", exchange(), "Euros")
+
+# Lab 4-8
+
+def calculate_shipping(package_weight, distance_miles):
+    total_cost = (package_weight * 0.5) + (distance_miles * 0.1)
+    return total_cost
+
+print("The total cost is", calculate_shipping(12,250), "$")
+
