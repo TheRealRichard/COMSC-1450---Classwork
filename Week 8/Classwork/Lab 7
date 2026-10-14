@@ -13,3 +13,10 @@ y = int(input("What number will be checked?"))
 print(y in x)
 
 ## Lab 7-4
+
+result = 0
+for item in x:
+    result = result + item
+print(result)
+
+## Lab 7-5
