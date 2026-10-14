@@ -8,3 +8,8 @@ print(x)
 print(x[0],x[-1])
 
 ## Lab 7-3
+
+y = int(input("What number will be checked?"))
+print(y in x)
+
+## Lab 7-4
