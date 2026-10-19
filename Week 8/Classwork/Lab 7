@@ -31,7 +31,11 @@ print(average)
 
 ## Lab 7-6
 
-
+bignumber = 0
+for item in x:
+    if bignumber < item:
+        bignumber = item
+print(bignumber)
 
 ## Lab 7-10
 
