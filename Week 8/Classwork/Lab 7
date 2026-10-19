@@ -30,3 +30,11 @@ average = sum/count
 print(average)
 
 ## Lab 7-6
+
+
+
+## Lab 7-10
+
+y =[6,7,8,9,10]
+x.extend(y)
+print(x)
