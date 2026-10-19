@@ -45,6 +45,18 @@ for item in x:
         smallnumber = item
 print(smallnumber)
 
+## Lab 7-8
+
+odd = 0
+even = 0
+for item in x:
+    if item % 2 == 0:
+        even = even + 1
+    else:
+        odd = odd + 1
+print("There are", odd, "odd numbers")
+print("There are", even, "even numbers")
+
 ## Lab 7-10
 
 y =[6,7,8,9,10]
