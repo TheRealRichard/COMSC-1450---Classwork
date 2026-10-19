@@ -20,3 +20,13 @@ for item in x:
 print(result)
 
 ## Lab 7-5
+
+sum = 0
+count = 0
+for item in x:
+    sum = sum + item
+    count = count + 1
+average = sum/count
+print(average)
+
+## Lab 7-6
