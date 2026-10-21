@@ -1,1 +1,10 @@
 ## Lab 8-1
+
+d = {"apples":50, "bananas":30, "oranges":25}
+print(d)
+d["bananas"] = 45
+d["mangos"] = 15
+d.pop("oranges")
+print(d)
+
+## Lab 8-2
