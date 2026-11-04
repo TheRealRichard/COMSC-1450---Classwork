@@ -1,1 +1,16 @@
 ## Lab 11-1
+
+stop = 0
+while stop < 1:
+    try:
+        x = int(input("Enter a Numerator: "))
+        y = int(input("Enter a Denominator: "))
+        z = x/y
+    except ValueError:
+        print("Invalid Value")
+    except ZeroDivisionError:
+        print("Cannot divide by Zero")
+    else:
+        print(x, "divided by", y, "equals ", z)
+        stop = 1
+    
