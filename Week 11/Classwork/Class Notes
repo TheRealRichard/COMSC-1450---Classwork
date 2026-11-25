@@ -1,0 +1,59 @@
+class Student:
+    def __init__(self, n, a, gpa):
+        self.name = n
+        self.age = a
+        self.gpa = float(gpa)
+    def display(self):
+        print(self.name, self.age, self.gpa)
+    def calculate_gpa(self):
+        return self.gpa * 2
+
+s1 = Student("Sara", 20, 4)
+s2 = Student("Saria", 22, 4)
+s3 = Student("Sarah", 4800, 5)
+
+s1.display()
+s2.display()
+s3.display()
+print(s1.calculate_gpa())
+
+class Person:
+    def __init__(self, name, age, address):
+        self.name = name
+        self.age = age
+        self.address = address
+    def display(self):
+        print(self.name, self.age, self.address)
+class Student(Person):
+    def __init__(self, name, age, address, gpa):
+        super().__init__(name, age, address)
+        self.gpa = gpa
+class Employee(Person):
+    def __init__(self, name, age, address, salary):
+        super().__init__(name, age, address)
+        self.salary = salary
+class TA (Person):
+    def __init__(self, name, age, address, degree):
+        super().__init__(name, age, address)
+        self.salary = degree 
+
+s1 = Student("Sara", 19, "CA", 4.0)
+print(s1.name)
+s1.display()
+e1 = Employee("Dave", 39, "WY", 25000)
+print(e1.salary)
+e1.display()
+t1 = TA("Edmund", 29, "NY", "Astronomy")
+print(t1.address)
+t1.display()
+
+class phone:
+    def __init__(self, mega):
+        self.mega = mega
+class camera:
+    def __init__(self, phone_num):
+        self.phone_num = phone_num
+class smart_phone(phone, camera):
+    def __init__(self, phone_num, mega, brand):
+        phone.__init__(self, phone_num)
+        camera.__init__(self,mega)
