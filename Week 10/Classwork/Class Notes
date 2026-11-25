@@ -1,0 +1,102 @@
+import tkinter as tk
+
+def on_click():
+    x = "You have picked "
+    if bv.get() == 1:
+        x = x + "Java"
+    elif bv1.get() == 1:
+        x = x + "Python"
+    elif bv2.get() == 1:
+        x = x + "C++"
+
+root = tk.Tk()
+root.title("GUI")
+root.geometry("400x500")
+
+l1 = tk.Label(root, text = "Pick a course")
+l1.pack()
+
+bv = tk.IntVar()
+bv1 = tk.IntVar()
+bv2 = tk.IntVar()
+
+bc1 = tk.Checkbutton(root, text = "Java", variable = bv)
+bc1.pack()
+bc2 = tk.Checkbutton(root, text = "Python", variable = bv1 )
+bc2.pack()
+bc3 = tk.Checkbutton(root, text = "C++", variable = bv2)
+bc3.pack()
+
+b = tk.Button(root, text = "Ok", command=on_click)
+b.pack
+
+l2 = tk.Label(root)
+l2.pack
+
+root.mainloop()
+
+import tkinter as tk
+
+def on_click():
+    root2 = tk.Toplevel(root)
+    root2.title("Window 2")
+    root2.geometry("300x300")
+    x = "Welcome" + e.get()
+    l = tk.Label(root2, text = "Window  2")
+    l.pack()
+
+def show_page(frame):
+    home_page.pack_forget()
+    course_page.pack_forget()
+    registration.pack_forget()
+    frame.pack(fill = "both", extend = True)
+
+
+root = tk.Tk()
+root.title("Window 1")
+root.geometry("500x500")
+
+main_menu = tk.Menu(root)
+f1 = tk.Menu(main_menu)
+f1.add_command(label = "Open")
+f1.add_command(label = "Save")
+f1.add_separator()
+f1.add_command(label = "Exit", command = root.destroy)
+main_menu.add_cascade(label = "File", menu = f1)
+root.config(menu = main_menu)
+
+f2 = tk.Menu(main_menu)
+f2.add_command(label = "Courses", command = show_page)
+f2.add_command(label = "Registration")
+main_menu.add_cascade(label = "Services", menu = f2)
+
+home_page = tk.Frame(root)
+l1 = tk.Label(home_page, text = "Home Page")
+l1.pack()
+b = tk.Button(home_page, text = "OK", command = on_click, bg = "green", fg = "black")
+b.pack()
+
+course_page = tk.Frame(root)
+l2 = tk.Label(course_page, text = "Course Page")
+l2.pack()
+
+registration = tk.Frame(root)
+l3 = tk.Label(registration, text = "Registration")
+l3.pack()
+
+b = tk.Button(root, text = "OK", command = on_click, bg = "gray", fg = "black")
+b.pack()
+root.mainloop()
+
+stop = 0
+while stop < 1:
+    try:
+        x = int(input("Enter a num"))
+        y = 12/x
+    except ValueError:
+        print("Invalid Value")
+    except ZeroDivisionError:
+        print("Cannot divide by Zero")
+    else:
+        print(y)
+        stop = 1
